@@ -109,9 +109,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RainCoatProject\RainCoatProject.csproj">
+    <ProjectReference Include="..\RainCoatProject\RainCoatProject.Web.csproj">
       <Project>{B12EF85B-0655-47D0-996B-8F7BAC335835}</Project>
-      <Name>RainCoatProject</Name>
+      <Name>RainCoatProject.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
