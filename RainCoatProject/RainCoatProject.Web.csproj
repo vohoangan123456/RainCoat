@@ -277,6 +277,20 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RainCoat.Business.Entity\RainCoat.Business.Entity.csproj">
+      <Project>{e5a11963-2ee8-4457-bc61-6a8dbbb5491a}</Project>
+      <Name>RainCoat.Business.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RainCoat.Business\RainCoat.Business.csproj">
+      <Project>{4289bd6d-9ace-4980-ab08-4979f63b389e}</Project>
+      <Name>RainCoat.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RainCoat.Common\RainCoat.Common.csproj">
+      <Project>{f6737864-11d9-4048-9cc3-467efbe51527}</Project>
+      <Name>RainCoat.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
